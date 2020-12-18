@@ -1,0 +1,88 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.2"
+
+    defaultConfig {
+        applicationId "com.example.day4_jiaying"
+        minSdkVersion 22
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    //轮播图依赖
+    implementation 'com.youth.banner:banner:1.4.10'
+
+    //添加RecyclerView依赖
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+
+    //ViewPager 引导界面依赖：(据电脑版本来定)
+    //风格依赖
+    implementation 'com.android.support:design:29.0.5'
+    implementation'com.google.android.material:material:1.2.0alpha02'
+
+    //侧滑菜单：DrawerLayout +NavigationView使用
+    implementation 'com.android.support:design:29.0.5'
+    implementation 'com.google.android.material:material:1.2.0-alpha02'
+
+    //解析json依赖 /*gson解析*/
+    implementation 'com.google.code.gson:gson:2.2.4'
+
+    //加载圆形图片  图片加载框架(3.0版本以后)
+    implementation 'com.github.bumptech.glide:glide:4.7.1'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.7.1'
+
+    //glide图片加载控件(旧依赖)
+    implementation 'com.github.bumptech.glide:glide:3.7.0'
+
+    //解析okhttp
+    implementation("com.squareup.okhttp3:okhttp:4.9.0")
+    compile 'com.squareup.okhttp3:okhttp:3.11.0'
+
+    //上下拉 刷新的依赖
+    implementation 'com.scwang.smartrefresh:SmartRefreshLayout:1.1.2'
+
+    ////eventbus
+    implementation 'org.greenrobot:eventbus:3.1.1'
+
+    //Retrofit网络解析
+    //retrofit+rxjava
+    implementation 'com.squareup.retrofit2:retrofit:2.5.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'//转换器，请求结果转换成Model
+    //配合Rxjava 使用
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.3.0'
+    implementation 'io.reactivex.rxjava2:rxjava:2.0.1'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.0.1'
+
+    //Fresco加载图片的依赖及权限
+    implementation "com.github.bumptech.glide:glide:4.11.0"//glide图片加载框架
+    implementation 'com.facebook.fresco:fresco:1.12.1'
+
+    //注意：分包之后不会有默认的Header和Footer需要手动添加!还是原来的三种方法
+    //核心必须依赖
+    implementation 'com.scwang.smartrefresh:SmartRefreshLayout:1.1.2'
+    //经典刷新头
+    implementation 'com.scwang.smartrefresh:SmartRefreshHeader:1.1.2'
+    //雷达刷新头
+    implementation  'com.scwang.smart:refresh-header-radar:2.0.1'
+}
