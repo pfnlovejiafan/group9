@@ -1,0 +1,142 @@
+1.方便项目经理查看项目进度    提交代码
+2.进公司之后，发现代码写不下去，需要撤销重新写     版本回退
+3. ABC模块  DEF模块, 项目分工开发，项目合并       分支与合并
+
+
+
+分布式：至少有两个仓库(本地仓库+远程仓库)
+集中式： 只有一个远程仓库
+
+                                    git add .                     git commit -m "注释"        git push
+git分为  工作空间(目录) ------------>    暂存区  -----------------> 本地仓库---------->远程仓库（github， gitee码云， ）
+
+
+
+
+1.配置git的用户名 和邮箱   
+
+配置用户名命令:
+git config --global user.name "自己用户名"        
+
+
+配置邮箱
+git config --global user.email "自己邮箱"      
+
+
+
+验证用户名和邮箱是否已经配置过
+
+git config user.name
+git config user.email
+
+
+注意： 需要先将本地工作空间中的所有文件提交到本地仓库才能往远程仓库提交
+
+顺序： 工作空间-------------->暂存区--------------->本地仓库----------------->远程仓库
+
+
+
+git 初始化命令  只是第一次初始化下
+git init
+
+
+将工作空间里面所有的文件和文件夹都提交到暂存区    
+git add .
+
+
+
+将暂存区里面的文件提交到本地仓库
+git commit -m "注释"                                            
+
+ 
+查看状态的命令
+通过一个命令查看提交的所有文件的状态  红色的代表未提交到暂存区   绿色代表已经提交到暂存区了但是没有提交到本地仓库     如果出现  On branch master   nothing to commit, working tree clean
+代表已经提交完成了
+git status
+
+
+
+查看每次提交到本地仓库的版本号   （版本号是随机生成的一串字符串）
+git reflog 
+
+
+
+回退到上一个版本                          回退到上上个版本                                  回退到上上上个版本 
+git reset --hard HEAD^               git reset --hard HEAD^^                     git reset --hard HEAD^^^    ........
+
+
+回退到某个具体的版本号      
+git reset --hard  968c48a                      git reset --hard  回退的具体版本号
+ 
+
+
+
+注意：多往本地仓库提交，注释要写好， (实现一个功能提交一次，修复一个bug提交一次)
+
+
+
+
+设置关联远程仓库
+生成ssh密钥
+ssh-keygen -t rsa -C "floveandroid@sina.com"
+
+
+
+
+git关联远程仓库命令
+
+git remote add origin 路径
+
+
+把本地仓库的项目提交到远程仓库
+git push -u origin master
+
+
+
+
+
+要先拉取代码
+git pull origin main(远程分支名) --allow-unrelated-histories
+、
+
+
+
+
+如果上面拉取代码的方式不行，只需要创建一个空目录 然后通过   
+git clone 路径
+
+命令 将远程仓库里面所有的文件 包括readme.md文件都下载到本地工作空间
+
+然后把项目复制到这个目录里面，先提交到暂存区，再提交到本地仓库， 然后一并再提交到远程仓库
+
+
+创建+切换分支：git checkout –b 分支名
+
+
+切换分支：git checkout 分支名
+
+
+查看分支：git branch
+
+创建分支：git branch name
+
+
+删除分支：git branch –d name
+
+
+
+切换到主分支然后合并子分支
+
+合并某分支到当前分支：git merge 子分支
+
+
+
+
+
+注意：第一天进公司，拿到仓库地址不管远程仓库有没有代码，先把远程仓库的分支克隆到本地  然后切换到子分支，然后在子分支里面写代码，修复bug   实现一个功能 提交到本地仓库一次，
+         晚上下班之前再切换到主分支，然后合并子分支，最后提交到远程仓库
+
+
+        git pull origin main(远程分支名) --allow-unrelated-histories
+         以后到公司上班，早上第一件事 ，先从远程仓库拉取代码，拉取到代码之后，再切换到子分支 然后一实现功能，修复bug 实现一个功能，提交本地仓库一次，晚上下班之间再切换到主分支，
+         然后合并子分支，最后提交到远程仓库
