@@ -15,8 +15,6 @@
 查询状态 git status
 查询版本 git reflog
 回退版本 git resset --hard 版本号
-
-
 二，远程仓库有代码需要拉取
 	1.git clone  仓库地址          ：克隆仓库地址(clone内部执行了init和关了远程仓库)
 	 2.git branch 分支名            ：创建分支
@@ -29,35 +27,22 @@
 	11.git  commit  -m   ：提交
 	12.git push -u origin master ：推送到远程Github仓库
 
-
 	//每写一个功能commit一下	每天下班执行push
-
 
 设置关联远程仓库
 生成ssh密钥
 ssh-keygen -t rsa -C "floveandroid@sina.com"
 
-
-
-
 git关联远程仓库命令
 
 git remote add origin https://github.com/Thierry1/Android-H2003B.git
 
-
-
-
 把本地仓库的项目提交到远程仓库
 git push -u origin master
-
-
-
 
 要先拉取代码
 git pull   origin  master
 git fetch origin master
-
-
 
 如果上面拉取代码的方式不行，只需要创建一个空目录 然后通过   
 git clone https://github.com/Thierry1/Android-H2003B.git
@@ -66,8 +51,59 @@ git clone https://github.com/Thierry1/Android-H2003B.git
 
 然后把项目复制到这个目录里面，先提交到暂存区，再提交到本地仓库， 然后一并再提交到远程仓库
 
+远程仓库是空仓库，只有README.md文件：
+      1.git init           ：初始化仓库
+       2.git remote add origin https://xxxxxxxxxxxx.git          ：关联远程仓库
+       3.git pull origin master ：拉取Git仓库的READMD.md文件
+      4.git branch 分支名            ：创建分支
+      5.git branch                   ：查看所有分支（确保上面创建分支成功）
+       6.git checkout 分支名      ：切换到指定分支
+       7.修改代码
+        8.git merge --no-ff "分支名"        ：强制把当前分支"分支名"合并到 主分支"master"上
+	9.git branch master     ：切回主分支
+	10. git  add --all          ：添加所有文件夹
+	11.git  commit  -m   ：提交
+	12.git push -u origin master   ：推送到远程Github仓库
 
- 
+如果上面拉取代码的方式不行，只需要创建一个空目录 然后通过   
+git clone https://github.com/Thierry1/Android-H2003B.git
+
+命令 将远程仓库里面所有的文件 包括readme.md文件都下载到本地工作空间
+
+然后把项目复制到这个目录里面，先提交到暂存区，再提交到本地仓库， 然后一并再提交到远程仓库
+
+注意：第一天进公司，先把远程仓库的分支克隆到本地  然后切换到子分支，然后在子分支里面写代码，实现一个功能 提交到本地仓库一次，
+         晚上下班之前再切换到主分支，然后合并子分支，最后提交到远程仓库
+        git pull origin main(远程分支名) --allow-unrelated-histories
+         以后到公司上班，早上第一件事 ，先拉取代码，拉取到代码之后，再切换到子分支  实现一个功能，提交本地仓库一次，晚上下班之间再切换到主分支，
+         然后合并子分支，最后提交到远程仓库
+
+美工切三套图标    @1x (1倍图)    @2x(2倍图)     @3x(3倍图) 
+3倍图 放到mdpi里面会出现什么问题?
+高分辨率的图标放到低分辨率的目录里面会出现什么问题？          图标会拉伸放大
+低分辨的图标放到高分辨率的目录里面会出现什么问题？              图标会压缩缩小
+真实开发的时候：需要三套图或者二套图 图标(放到对应的目录下面)+背景图(一般放到drawable-hdpi下或者drawable-xhdpi下面就行)
+ drawable里面放入一些app切图图标资源             mipmap里面放入app的 logo图标
+真实开发的时候：需要三套图或者二套图        图标(放到对应的目录下面)+背景图(一般放到drawable-hdpi下或者drawable-xhdpi下面就行)
+图片格式  ==   .9.png (不管如何拉伸如何压缩都不会变形)        Button按钮纯色的背景图   ，标题栏的背景图   
+ 做.9.png图片的时候     左边的黑线：控制纵向拉伸区域           上边的黑线：控制横向拉伸区域
+                        右边的黑线：控制纵向内容显示区域      下边的黑线：控制横向内容显示区域
+单位和分辨率的关系
+
+ 在mdpi   320*480 分辨率下     1dp=1px
+ 在 hdpi   480*800  分辨率下    1dp=1.5px
+在xhdpi     720*1280 分辨率下  1dp=2px
+依次类推
+主流分辨率 ：1080 * 1920       720*1280
+蓝湖 账号和密码  （app原型图，接口文档，需求文档）
+美工问：原先你们公司是以哪个分辨率为基准做的原型图      一定要看下流量研究院中主流分辨率是多少， 确定主流分辨率之后，告诉美工 之前公司是以这个主流分辨率为基准做的原型图
+1.明确原型图的分辨率是多少   
+根据原型图做布局适配
+公司里面的原型图 是  750*1334      
+蓝湖中 原型图上标注的有三种单位    三种单位是可以切换的                100 px      33.3 dp     pt
+
+
+
 
 
 
