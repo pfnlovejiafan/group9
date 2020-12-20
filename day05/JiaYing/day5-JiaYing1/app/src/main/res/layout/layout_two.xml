@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:id="@+id/two_rv"
+            android:layout_height="match_parent"/>
+
+
+    <!--    <ImageView
+            android:id="@+id/two_img1"
+            android:background="@drawable/zan"
+            android:layout_width="@dimen/x150"
+            android:layout_height="@dimen/y150"/>
+
+        <TextView
+            android:id="@+id/two_text1"
+            android:layout_below="@id/two_img1"
+            android:layout_marginLeft="@dimen/x30"
+            android:text="每日推荐"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>-->
+
+
+
+    <!--<LinearLayout
+        android:id="@+id/two_llmain"
+        android:layout_marginTop="@dimen/y80"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/two_img1"
+            android:layout_marginLeft="@dimen/x30"
+            android:background="@drawable/zan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <ImageView
+            android:id="@+id/two_img2"
+            android:layout_marginLeft="@dimen/x30"
+            android:background="@drawable/game"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:id="@+id/two_img3"
+            android:layout_marginLeft="@dimen/x30"
+            android:background="@drawable/shi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:id="@+id/two_img4"
+            android:layout_marginLeft="@dimen/x30"
+            android:background="@drawable/pai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <ImageView
+            android:id="@+id/two_img5"
+            android:layout_marginLeft="@dimen/x30"
+            android:background="@drawable/hui"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_below="@id/two_llmain"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/two_text1"
+            android:layout_marginTop="@dimen/y20"
+            android:layout_marginLeft="@dimen/x30"
+            android:text="每日推荐"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/two_text2"
+            android:layout_marginTop="@dimen/y20"
+            android:layout_marginLeft="@dimen/x40"
+            android:text="飞花令"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:id="@+id/two_text3"
+            android:layout_marginTop="@dimen/y20"
+            android:layout_marginLeft="@dimen/x50"
+            android:text="诗歌社群"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/two_text4"
+            android:layout_marginTop="@dimen/y20"
+            android:layout_marginLeft="@dimen/x50"
+            android:text="排行榜"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/two_text5"
+            android:layout_marginTop="@dimen/y20"
+            android:layout_marginLeft="@dimen/x50"
+            android:text="会员社区"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/-->>
+   <!-- </LinearLayout>-->
+</LinearLayout>

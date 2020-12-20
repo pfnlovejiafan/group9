@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/two_img1"
+        android:background="@drawable/zan"
+        android:layout_width="@dimen/x150"
+        android:layout_height="@dimen/y150"/>
+
+    <TextView
+        android:id="@+id/two_text1"
+        android:layout_below="@id/two_img1"
+        android:layout_marginLeft="@dimen/x30"
+        android:text="每日推荐"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+      <LinearLayout
+          android:id="@+id/fourchild_main"
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+
+       <ImageView
+
+           android:layout_marginLeft="@dimen/x20"
+           android:id="@+id/fouriv1"
+           android:layout_width="@dimen/x100"
+           android:layout_height="@dimen/y100"/>
+
+       <TextView
+           android:id="@+id/fourtv5"
+
+           android:layout_width="53dp"
+           android:layout_height="wrap_content"
+           android:layout_below="@id/fouriv1"
+           />
+   </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/fourchild_main"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_marginTop="@dimen/x40"
+            android:layout_marginLeft="@dimen/x20"
+            android:id="@+id/fouriv2"
+            android:layout_width="@dimen/x100"
+            android:layout_height="@dimen/y100"/>
+
+        <TextView
+            android:id="@+id/fourtv55"
+            android:layout_marginLeft="@dimen/x20"
+            android:layout_marginTop="20dp"
+            android:layout_width="53dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fouriv1"
+            />
+    </LinearLayout>
+</RelativeLayout>

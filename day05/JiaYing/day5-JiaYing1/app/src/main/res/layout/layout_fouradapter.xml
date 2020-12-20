@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:textSize="25dp"
+        android:layout_marginLeft="@dimen/x20"
+        android:id="@+id/four_text1"
+        android:text="平台荣誉诗人PK"
+        android:textColor="#505050"
+        android:layout_width="@dimen/x350"
+        android:layout_height="@dimen/y70"/>
+
+
+
+
+    <TextView
+        android:textSize="25dp"
+        android:layout_marginLeft="@dimen/x580"
+
+        android:id="@+id/four_text2"
+        android:text="更多"
+        android:textColor="#505050"
+        android:layout_width="@dimen/x100"
+        android:layout_height="@dimen/y70"/>
+
+
+    <ImageView
+        android:id="@+id/four_img"
+        android:layout_marginLeft="@dimen/x670"
+        android:background="@drawable/more"
+        android:layout_width="@dimen/x60"
+        android:layout_height="@dimen/y60"
+        />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_below="@id/four_img"
+        android:id="@+id/four_child_rv"
+        android:layout_height="match_parent"/>
+  <!--  <LinearLayout
+        android:layout_below="@id/four_img"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_marginTop="@dimen/x40"
+            android:layout_marginLeft="@dimen/x20"
+            android:id="@+id/fouriv1"
+            android:layout_width="@dimen/x100"
+            android:layout_height="@dimen/y100"/>
+
+        <TextView
+            android:id="@+id/fourtv5"
+            android:layout_marginLeft="@dimen/x20"
+            android:layout_marginTop="20dp"
+            android:layout_width="53dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fouriv1"
+            />
+    </LinearLayout>-->
+
+   <!-- <LinearLayout
+        android:id="@+id/four_main"
+        android:layout_marginTop="@dimen/x20"
+        android:layout_below="@id/four_img"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        
+        <ImageView
+            android:layout_marginLeft="@dimen/x20"
+            android:id="@+id/fouriv1"
+            android:layout_width="@dimen/x100"
+            android:layout_height="@dimen/y100"/>
+
+        <ImageView
+            android:layout_marginLeft="@dimen/x45"
+            android:id="@+id/fouriv2"
+            android:layout_width="@dimen/x100"
+            android:layout_height="@dimen/y100"/>
+        <ImageView
+            android:layout_marginLeft="@dimen/x45"
+            android:id="@+id/fouriv3"
+            android:layout_width="@dimen/x100"
+            android:layout_height="@dimen/y100"/>
+        <ImageView
+            android:layout_marginLeft="@dimen/x40"
+            android:id="@+id/fouriv4"
+            android:layout_width="@dimen/x100"
+            android:layout_height="@dimen/y100"/>
+
+        <ImageView
+            android:layout_marginLeft="@dimen/x55"
+            android:id="@+id/fouriv5"
+            android:layout_width="@dimen/x100"
+            android:layout_height="@dimen/y100"/>
+
+    </LinearLayout>-->
+
+<!--    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/four_main"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginLeft="@dimen/x20"
+            android:id="@+id/fourtv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginLeft="@dimen/x45"
+            android:id="@+id/fourtv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_marginLeft="@dimen/x45"
+            android:id="@+id/fourtv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_marginLeft="@dimen/x45"
+            android:id="@+id/fourtv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginLeft="@dimen/x45"
+            android:id="@+id/fourtv5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>-->
+</RelativeLayout>

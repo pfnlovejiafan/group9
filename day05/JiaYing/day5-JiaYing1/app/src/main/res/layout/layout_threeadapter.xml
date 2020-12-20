@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/three_text1"
+            android:text="诗歌群PK"
+            android:textColor="#3D3D3D"
+            android:textSize="@dimen/x55"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+
+        <TextView
+            android:layout_marginLeft="25dp"
+            android:id="@+id/three_text2"
+            android:text="08-01"
+            android:textColor="#5DBBAC"
+            android:textSize="@dimen/x55"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/three_text3"
+            android:text="日晚"
+            android:textColor="#B3B3B3"
+            android:textSize="@dimen/x55"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:id="@+id/three_text4"
+            android:text="8:00"
+            android:textColor="#5DBBAC"
+            android:textSize="@dimen/x55"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/three_text5"
+            android:text="开始"
+            android:textColor="#B3B3B3"
+            android:textSize="@dimen/x55"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+    <ImageView
+    android:layout_marginTop="@dimen/x250"
+    android:id="@+id/three_img"
+    android:layout_centerInParent="true"
+    android:layout_width="@dimen/x640"
+    android:layout_height="@dimen/y350"/>
+
+</RelativeLayout>

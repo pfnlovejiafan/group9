@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:textSize="25dp"
+        android:layout_marginLeft="@dimen/x20"
+        android:id="@+id/five_text1"
+        android:text="诺布尔获奖诗人"
+        android:textColor="#505050"
+        android:layout_width="@dimen/x350"
+        android:layout_height="@dimen/y70"/>
+
+
+
+
+    <TextView
+        android:textSize="25dp"
+        android:layout_marginLeft="@dimen/x580"
+
+        android:id="@+id/five_text2"
+        android:text="更多"
+        android:textColor="#505050"
+        android:layout_width="@dimen/x100"
+        android:layout_height="@dimen/y70"/>
+
+
+    <ImageView
+        android:id="@+id/five_img"
+        android:layout_marginLeft="@dimen/x670"
+        android:background="@drawable/more"
+        android:layout_width="@dimen/x60"
+        android:layout_height="@dimen/y60"
+        />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_below="@id/five_img"
+        android:id="@+id/five_child_rv"
+        android:layout_height="match_parent"/>
+</RelativeLayout>
