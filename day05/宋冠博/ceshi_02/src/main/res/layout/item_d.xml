@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+    <ImageView
+        android:layout_width="@dimen/dp_163"
+        android:layout_height="@dimen/dp_113"
+        android:src="@drawable/e1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:id="@+id/iv"
+        />
+    
+    <TextView
+        android:layout_width="@dimen/dp_118"
+        android:layout_height="@dimen/dp_17"
+        android:textSize="@dimen/dp_16"
+        android:text="谁道碎叶不似星"
+        android:id="@+id/tv"
+        app:layout_constraintTop_toBottomOf="@id/iv"
+        app:layout_constraintLeft_toLeftOf="@id/iv"
+        app:layout_constraintRight_toRightOf="@id/iv"
+        android:layout_marginTop="@dimen/dp_10"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_1"
+        android:text="有没有"
+        app:layout_constraintTop_toBottomOf="@id/tv"
+        app:layout_constraintLeft_toLeftOf="@id/tv"
+        app:layout_constraintRight_toRightOf="@id/tv"
+        android:layout_marginTop="@dimen/dp_5"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_2"
+        android:text="走不散的情人？"
+        app:layout_constraintTop_toBottomOf="@id/tv_1"
+        app:layout_constraintLeft_toLeftOf="@id/tv"
+        app:layout_constraintRight_toRightOf="@id/tv"
+        android:layout_marginTop="@dimen/dp_5"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_3"
+        android:text="有没有"
+        app:layout_constraintTop_toBottomOf="@id/tv_2"
+        app:layout_constraintLeft_toLeftOf="@id/tv"
+        app:layout_constraintRight_toRightOf="@id/tv"
+        android:layout_marginTop="@dimen/dp_5"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_4"
+        android:text="..."
+        app:layout_constraintTop_toBottomOf="@id/tv_3"
+        app:layout_constraintLeft_toLeftOf="@id/tv"
+        app:layout_constraintRight_toRightOf="@id/tv"
+        android:layout_marginTop="@dimen/dp_5"
+        />
+    <ImageView
+        android:layout_width="@dimen/dp_22"
+        android:layout_height="@dimen/dp_22"
+        android:id="@+id/iv_a"
+        android:src="@drawable/e3"
+        app:layout_constraintTop_toBottomOf="@id/tv_4"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="@dimen/dp_20"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_5"
+        app:layout_constraintTop_toTopOf="@id/iv_a"
+        app:layout_constraintLeft_toRightOf="@id/iv_a"
+        android:text="skystar"
+        />
+
+    <ImageView
+        android:layout_width="@dimen/dp_15"
+        android:layout_height="@dimen/dp_15"
+        android:id="@+id/iv_b"
+        app:layout_constraintLeft_toRightOf="@id/tv_5"
+        app:layout_constraintTop_toTopOf="@id/tv_5"
+        android:layout_marginLeft="@dimen/dp_20"
+        />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_6"
+        app:layout_constraintLeft_toRightOf="@id/iv_b"
+        app:layout_constraintTop_toTopOf="@id/tv_5"
+        />
+
+    
+</androidx.constraintlayout.widget.ConstraintLayout>

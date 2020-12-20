@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+    <ImageView
+        android:layout_width="@dimen/dp_75"
+        android:layout_height="@dimen/dp_75"
+        android:id="@+id/iv"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="写给秋天的诗"
+        android:textSize="@dimen/dp_20"
+        android:id="@+id/tv_a"
+        app:layout_constraintLeft_toRightOf="@id/iv"
+        android:layout_marginLeft="@dimen/dp_5"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="秋风细雨,说一声你好!一天的诗。从..."
+        app:layout_constraintLeft_toRightOf="@id/iv"
+        android:layout_marginLeft="@dimen/dp_5"
+        app:layout_constraintTop_toBottomOf="@id/tv_a"
+        android:layout_marginTop="@dimen/dp_5"
+        android:id="@+id/tv_b"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="作者：墨梅"
+        app:layout_constraintLeft_toRightOf="@id/iv"
+        android:layout_marginLeft="@dimen/dp_5"
+        app:layout_constraintTop_toBottomOf="@id/tv_b"
+        android:layout_marginTop="@dimen/dp_10"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#4CAF50"
+        app:layout_constraintTop_toBottomOf="@id/tv_b"
+        android:layout_marginTop="@dimen/dp_10"
+        app:layout_constraintLeft_toRightOf="@id/tv_b"
+        android:id="@+id/tv_c"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
