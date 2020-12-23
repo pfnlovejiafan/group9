@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "day8-BaiDuMap1"
