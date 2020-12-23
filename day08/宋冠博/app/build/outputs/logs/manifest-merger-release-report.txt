@@ -1,0 +1,912 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:2:1-413:12
+INJECTED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:2:1-413:12
+INJECTED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:2:1-413:12
+INJECTED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:2:1-413:12
+MERGED from [com.android.support:design:27.1.1] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\726e1c3dbef98a4a5a2e05aa65462de2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\58e0aef046a722ab1481e9c9109c4e39\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\982c23bed471dafe636580e2aa842d2d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\eccdaeba4b5e1bbe3cf1660a7dc91b32\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\6bb524221eb53d02b1920837d84878da\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\8b0cc422cadf1a56ebc81be436fce73d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\fb76d10b255581194542d9e8266cb3e2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\ae44acf242018dfe7b8c3b3ad5bcda38\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\aca1a9826048960ad229de0e509770f5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\6381617c937de6651c73db6a4b81c265\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\c197076c07f1d86d9af073a6c3e6abe1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\909825ed3b19469e1ca8c85d33252e86\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\29614a4df560577ba44b4213fc490857\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\9bb22a8f60416945a558cfb842469c8c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\6f5765120013f887a2686e7891ddb3d2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\379dcc0dd8a92c1fd2ce912ca37952f7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\973d9ff7869a99b45d9fa70c629a07c1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\8085dffcf0d085e92a0b9201e60007f8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\3a671c9fd2101e8af98a3ed1753cf743\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\0e95d4bb2f523fbb4547383e471f29fa\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\3262aac53692197719d589997aa47893\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\d976886cde938bfb5d0956c13302ede9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\6cad0674629b7c7bf0024b38e673eec6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\51419a6715f9e243eb1d338f11aa1d37\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\a4df8580a470453efdd836111795f70d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\3e2d32f8c4b15e36a669da9dfc47bb2a\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\87cf3ce8ed9cd63e409ebe4e584f7b22\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\5c337ca3a28c3b39371143756d1072d6\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\a5ece9b7416a6f47b9a386ccdfb4edb5\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\3ef325b8ee0b149d6373bef5f3452423\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\808b7945f3d32512edf705f70db2f690\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:2:1-413:12
+INJECTED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:2:1-413:12
+INJECTED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:2:1-413:12
+	package
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:3:5-31
+		INJECTED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:12:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:14:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:16:5-76
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:16:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:18:5-79
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:18:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:20:5-81
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:20:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:22:5-80
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:22:22-77
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:24:22-64
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:26:5-65
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:26:22-62
+supports-screens
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:28:5-33:39
+	android:largeScreens
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:30:9-36
+	android:smallScreens
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:33:9-36
+	android:normalScreens
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:31:9-38
+	android:resizeable
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:32:9-34
+	android:anyDensity
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:29:9-34
+uses-feature#0x00020000
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:36:5-38:35
+	android:glEsVersion
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:37:9-41
+	android:required
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:38:9-32
+uses-feature#android.hardware.camera
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:41:5-60
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:41:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:42:5-70
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:42:19-67
+application
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:44:5-411:19
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\0e95d4bb2f523fbb4547383e471f29fa\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\0e95d4bb2f523fbb4547383e471f29fa\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\3262aac53692197719d589997aa47893\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\3262aac53692197719d589997aa47893\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\0e95d4bb2f523fbb4547383e471f29fa\AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:48:9-41
+	android:hardwareAccelerated
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:46:9-43
+	android:icon
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:47:9-45
+	android:theme
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:50:9-40
+	android:networkSecurityConfig
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:49:9-69
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:45:9-40
+meta-data#com.baidu.lbsapi.API_KEY
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:52:9-54:64
+	android:value
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:54:13-61
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:53:13-52
+meta-data#android.max_aspect
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:56:9-58:35
+	android:value
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:58:13-32
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:57:13-46
+activity#baidumapsdk.demo.BMapApiDemoMain
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:60:9-70:20
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:64:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:63:13-44
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:62:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:61:13-44
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:65:13-69:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:66:17-69
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:66:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:68:17-77
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:68:27-74
+service#com.baidu.location.f
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:72:9-75:49
+	android:process
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:75:13-38
+	android:enabled
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:74:13-35
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:73:13-48
+activity#baidumapsdk.demo.createmap.CreateMapList
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:77:9-81:52
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:81:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:80:13-61
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:79:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:78:13-52
+activity#baidumapsdk.demo.createmap.CustomMapDemo
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:82:9-86:52
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:86:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:85:13-53
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:84:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:83:13-52
+activity#baidumapsdk.demo.createmap.MapTypeDemo
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:87:9-91:52
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:91:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:90:13-55
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:89:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:88:13-50
+activity#baidumapsdk.demo.createmap.TextureMapViewDemo
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:92:9-96:52
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:96:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:95:13-61
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:94:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:93:13-57
+activity#baidumapsdk.demo.createmap.IndoorMapDemo
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:97:9-101:52
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:101:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:100:13-53
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:99:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:98:13-52
+activity#baidumapsdk.demo.createmap.OfflineDemo
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:102:9-106:52
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:106:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:105:13-54
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:104:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:103:13-50
+activity#baidumapsdk.demo.createmap.MapFragmentDemo
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:107:9-111:52
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:111:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:110:13-59
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:109:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:108:13-54
+activity#baidumapsdk.demo.createmap.MultiMapViewDemo
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:112:9-116:52
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:116:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:115:13-55
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:114:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:113:13-55
+activity#baidumapsdk.demo.geometry.TrackShowDemo
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:117:9-121:52
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:121:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:120:13-57
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:119:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:118:13-51
+activity#baidumapsdk.demo.geometry.GeometryList
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:122:9-126:52
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:126:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:125:13-56
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:124:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:123:13-50
+activity#baidumapsdk.demo.geometry.HeatMapDemo
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:127:9-131:52
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:131:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:130:13-54
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:129:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:128:13-49
+activity#baidumapsdk.demo.geometry.MarkerDemo
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:132:9-136:52
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:136:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:135:13-53
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:134:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:133:13-48
+activity#baidumapsdk.demo.geometry.PolylineDemo
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:137:9-141:52
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:141:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:140:13-55
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:139:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:138:13-50
+activity#baidumapsdk.demo.geometry.MarkerAnimationDemo
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:142:9-146:52
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:146:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:145:13-63
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:144:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:143:13-57
+activity#baidumapsdk.demo.geometry.PolygonDemo
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:147:9-151:52
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:151:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:150:13-54
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:149:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:148:13-49
+activity#baidumapsdk.demo.geometry.OpenglDemo
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:152:9-156:52
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:156:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:155:13-53
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:154:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:153:13-48
+activity#baidumapsdk.demo.geometry.TileOverlayDemo
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:157:9-161:52
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:161:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:160:13-58
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:159:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:158:13-53
+activity#baidumapsdk.demo.geometry.MarkerClusterDemo
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:162:9-166:52
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:166:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:165:13-71
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:164:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:163:13-55
+activity#baidumapsdk.demo.geometry.CircleDemo
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:167:9-171:52
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:171:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:170:13-53
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:169:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:168:13-48
+activity#baidumapsdk.demo.geometry.ArcDemo
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:172:9-176:52
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:176:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:175:13-50
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:174:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:173:13-45
+activity#baidumapsdk.demo.geometry.GroundOverlayDemo
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:177:9-181:52
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:181:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:180:13-60
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:179:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:178:13-55
+activity#baidumapsdk.demo.layers.LayersList
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:182:9-186:52
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:186:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:185:13-57
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:184:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:183:13-46
+activity#baidumapsdk.demo.layers.LayerTrafficAndHeatMapDemo
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:187:9-191:52
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:191:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:190:13-59
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:189:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:188:13-62
+activity#baidumapsdk.demo.layers.LayerBuildingDemo
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:192:9-196:52
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:196:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:195:13-60
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:194:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:193:13-53
+activity#baidumapsdk.demo.layers.LocationCustomDemo
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:197:9-201:52
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:201:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:200:13-61
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:199:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:198:13-54
+activity#baidumapsdk.demo.layers.LocationTypeDemo
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:202:9-206:52
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:206:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:205:13-59
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:204:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:203:13-52
+activity#baidumapsdk.demo.util.UtilsList
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:207:9-211:52
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:211:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:210:13-52
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:209:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:208:13-43
+activity#baidumapsdk.demo.util.DistanceUtilDemo
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:212:9-216:52
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:216:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:215:13-35
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:214:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:213:13-50
+activity#baidumapsdk.demo.util.FavoriteDemo
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:217:9-221:52
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:221:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:220:13-55
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:219:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:218:13-46
+activity#baidumapsdk.demo.util.OpenBaiduMap
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:222:9-226:52
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:226:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:225:13-60
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:224:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:223:13-46
+activity#baidumapsdk.demo.util.SpatialRelationDemo
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:228:9-232:52
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:232:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:231:13-55
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:230:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:229:13-53
+activity#baidumapsdk.demo.util.ShareDemo
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:233:9-237:52
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:237:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:236:13-52
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:235:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:234:13-43
+activity#baidumapsdk.demo.util.ShareDemoActivity
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:238:9-242:52
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:242:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:241:13-52
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:240:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:239:13-51
+activity#baidumapsdk.demo.util.CustomMapPreview
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:243:9-247:61
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:247:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:246:13-66
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:245:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:244:13-50
+activity#baidumapsdk.demo.mapcontrol.MapControlList
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:248:9-252:52
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:252:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:251:13-62
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:250:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:249:13-54
+activity#baidumapsdk.demo.mapcontrol.UISettingDemo
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:253:9-257:52
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:257:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:256:13-54
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:255:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:254:13-53
+activity#baidumapsdk.demo.mapcontrol.ViewSettingDemo
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:258:9-262:52
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:262:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:261:13-58
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:260:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:259:13-55
+activity#baidumapsdk.demo.mapcontrol.MapStatusDemo
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:263:9-267:52
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:267:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:266:13-56
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:265:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:264:13-53
+activity#baidumapsdk.demo.mapcontrol.MapClickDemo
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:268:9-272:52
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:272:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:271:13-55
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:270:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:269:13-52
+activity#baidumapsdk.demo.mapcontrol.PaddingDemo
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:273:9-277:52
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:277:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:276:13-54
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:275:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:274:13-51
+activity#baidumapsdk.demo.mapcontrol.MapBoundsDemo
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:278:9-282:52
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:282:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:281:13-56
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:280:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:279:13-53
+activity#baidumapsdk.demo.mapcontrol.MapLimitBoundsDemo
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:283:9-287:52
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:287:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:286:13-58
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:285:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:284:13-58
+activity#baidumapsdk.demo.mapcontrol.MapPoiDemo
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:288:9-292:52
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:292:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:291:13-53
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:290:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:289:13-50
+activity#baidumapsdk.demo.mapcontrol.SnapShotDemo
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:293:9-297:52
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:297:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:296:13-55
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:295:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:294:13-52
+activity#baidumapsdk.demo.searchroute.DrivingRouteSearchDemo
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:298:9-302:52
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:302:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:301:13-60
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:300:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:299:13-63
+activity#baidumapsdk.demo.searchroute.WalkingRouteSearchDemo
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:303:9-307:52
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:307:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:306:13-60
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:305:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:304:13-63
+activity#baidumapsdk.demo.searchroute.BikingRouteSearchDemo
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:308:9-312:52
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:312:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:311:13-59
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:310:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:309:13-62
+activity#baidumapsdk.demo.searchroute.TransitRoutePlanDemo
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:313:9-317:52
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:317:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:316:13-60
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:315:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:314:13-61
+activity#baidumapsdk.demo.searchroute.MassTransitRouteDemo
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:318:9-322:52
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:322:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:321:13-65
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:320:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:319:13-61
+activity#baidumapsdk.demo.searchroute.SearchRouteList
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:323:9-327:52
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:327:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:326:13-57
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:325:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:324:13-56
+activity#baidumapsdk.demo.searchroute.IndoorRouteDemo
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:328:9-332:52
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:332:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:331:13-52
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:330:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:329:13-56
+activity#baidumapsdk.demo.searchroute.BusLineSearchDemo
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:333:9-337:52
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:337:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:336:13-50
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:335:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:334:13-58
+activity#baidumapsdk.demo.search.PoiDetailSearchDemo
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:338:9-343:70
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:342:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:341:13-62
+	android:windowSoftInputMode
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:343:13-67
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:340:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:339:13-55
+activity#baidumapsdk.demo.search.PoiCitySearchDemo
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:344:9-349:70
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:348:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:347:13-60
+	android:windowSoftInputMode
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:349:13-67
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:346:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:345:13-53
+activity#baidumapsdk.demo.search.PoiNearbySearchDemo
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:350:9-354:52
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:354:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:353:13-62
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:352:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:351:13-55
+activity#baidumapsdk.demo.search.PoiBoundSearchDemo
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:355:9-359:52
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:359:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:358:13-61
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:357:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:356:13-54
+activity#baidumapsdk.demo.search.PoiSugSearchDemo
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:360:9-364:52
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:364:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:363:13-59
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:362:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:361:13-52
+activity#baidumapsdk.demo.search.GeoCoderDemo
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:366:9-370:52
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:370:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:369:13-54
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:368:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:367:13-48
+activity#baidumapsdk.demo.search.ReverseGeoCodeDemo
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:371:9-375:52
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:375:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:374:13-56
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:373:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:372:13-54
+activity#baidumapsdk.demo.search.RecommendStopDemo
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:376:9-380:56
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:380:17-53
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:379:17-64
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:378:17-78
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:377:17-57
+activity#baidumapsdk.demo.search.CloudSearchActivity
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:381:9-385:52
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:385:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:384:13-52
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:383:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:382:13-55
+activity#baidumapsdk.demo.search.CloudSearchDemo
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:386:9-390:52
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:390:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:389:13-69
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:388:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:387:13-51
+activity#baidumapsdk.demo.search.SearchList
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:391:9-395:52
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:395:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:394:13-58
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:393:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:392:13-46
+activity#baidumapsdk.demo.search.DistrictSearchDemo
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:396:9-400:52
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:400:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:399:13-60
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:398:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:397:13-54
+activity#baidumapsdk.demo.search.IndoorSearchDemo
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:401:9-405:52
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:405:13-49
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:404:13-59
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:403:13-74
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:402:13-52
+activity#baidumapsdk.demo.search.WeatherSearchActivity
+ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:406:9-410:56
+	android:screenOrientation
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:410:17-53
+	android:label
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:409:17-63
+	android:configChanges
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:408:17-78
+	android:name
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml:407:17-61
+uses-sdk
+INJECTED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:27.1.1] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\726e1c3dbef98a4a5a2e05aa65462de2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\726e1c3dbef98a4a5a2e05aa65462de2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\58e0aef046a722ab1481e9c9109c4e39\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\58e0aef046a722ab1481e9c9109c4e39\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\982c23bed471dafe636580e2aa842d2d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\982c23bed471dafe636580e2aa842d2d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\eccdaeba4b5e1bbe3cf1660a7dc91b32\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\eccdaeba4b5e1bbe3cf1660a7dc91b32\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\6bb524221eb53d02b1920837d84878da\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\6bb524221eb53d02b1920837d84878da\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\8b0cc422cadf1a56ebc81be436fce73d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\8b0cc422cadf1a56ebc81be436fce73d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\fb76d10b255581194542d9e8266cb3e2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\fb76d10b255581194542d9e8266cb3e2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\ae44acf242018dfe7b8c3b3ad5bcda38\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\ae44acf242018dfe7b8c3b3ad5bcda38\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\aca1a9826048960ad229de0e509770f5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\aca1a9826048960ad229de0e509770f5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\6381617c937de6651c73db6a4b81c265\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\6381617c937de6651c73db6a4b81c265\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\c197076c07f1d86d9af073a6c3e6abe1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\c197076c07f1d86d9af073a6c3e6abe1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\909825ed3b19469e1ca8c85d33252e86\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\909825ed3b19469e1ca8c85d33252e86\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\29614a4df560577ba44b4213fc490857\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\29614a4df560577ba44b4213fc490857\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\9bb22a8f60416945a558cfb842469c8c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\9bb22a8f60416945a558cfb842469c8c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\6f5765120013f887a2686e7891ddb3d2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\6f5765120013f887a2686e7891ddb3d2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\379dcc0dd8a92c1fd2ce912ca37952f7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\379dcc0dd8a92c1fd2ce912ca37952f7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\973d9ff7869a99b45d9fa70c629a07c1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\973d9ff7869a99b45d9fa70c629a07c1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\8085dffcf0d085e92a0b9201e60007f8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\8085dffcf0d085e92a0b9201e60007f8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\3a671c9fd2101e8af98a3ed1753cf743\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\3a671c9fd2101e8af98a3ed1753cf743\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\0e95d4bb2f523fbb4547383e471f29fa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\0e95d4bb2f523fbb4547383e471f29fa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\3262aac53692197719d589997aa47893\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\3262aac53692197719d589997aa47893\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\d976886cde938bfb5d0956c13302ede9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\d976886cde938bfb5d0956c13302ede9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\6cad0674629b7c7bf0024b38e673eec6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\6cad0674629b7c7bf0024b38e673eec6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\51419a6715f9e243eb1d338f11aa1d37\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\51419a6715f9e243eb1d338f11aa1d37\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\a4df8580a470453efdd836111795f70d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\a4df8580a470453efdd836111795f70d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\3e2d32f8c4b15e36a669da9dfc47bb2a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\3e2d32f8c4b15e36a669da9dfc47bb2a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\87cf3ce8ed9cd63e409ebe4e584f7b22\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\87cf3ce8ed9cd63e409ebe4e584f7b22\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\5c337ca3a28c3b39371143756d1072d6\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\5c337ca3a28c3b39371143756d1072d6\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\a5ece9b7416a6f47b9a386ccdfb4edb5\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\a5ece9b7416a6f47b9a386ccdfb4edb5\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\3ef325b8ee0b149d6373bef5f3452423\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\3ef325b8ee0b149d6373bef5f3452423\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\808b7945f3d32512edf705f70db2f690\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\86173\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\808b7945f3d32512edf705f70db2f690\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\86173\Desktop\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v7.1.0_Sample\BaiduMapsApiASDemo\app\src\main\AndroidManifest.xml
