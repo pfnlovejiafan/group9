@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">孙康的地图</string>
+    <string name="start">起点:</string>
+    <string name="stop">终点</string>
+</resources>
