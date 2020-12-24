@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ceshi1</string>
+    <string name="connec_exception">网络链接异常</string>
+    <string name="ssl_exception">ssl证书异常</string>
+    <string name="json_parse_exception">json解析异常</string>
+    <string name="complete">网络请求完成了</string>
+    <string name="home_tab_title">首页</string>
+    <string name="collect_tab_title">发现</string>
+    <string name="hhh_tab_title" />
+    <string name="one_tab_title">商城</string>
+    <string name="two_tab_title">我的</string>
+
+    <string name="title_activity_marker_cluster_demo">点聚合功能</string>
+    <string name="title_markercluster_desc">\t\t缩小地图，以显示标注物的聚合点 \n
+    \t\t放大地图，显示Marker点 \n</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
