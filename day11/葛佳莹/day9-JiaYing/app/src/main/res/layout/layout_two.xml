@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="@dimen/x40"
+    android:gravity="center"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/twoimg1"
+        android:layout_width="@dimen/x250"
+        android:layout_height="@dimen/y250"/>
+
+    <ImageView
+        android:layout_marginLeft="@dimen/x60"
+        android:id="@+id/twoimg2"
+        android:layout_width="@dimen/x250"
+        android:layout_height="@dimen/y250"/>
+
+
+</LinearLayout>
