@@ -1,0 +1,105 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.0"
+
+    defaultConfig {
+        applicationId "com.example.demo_tuisong"
+        minSdkVersion 21
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+
+        manifestPlaceholders = [
+                JPUSH_PKGNAME : applicationId,
+                JPUSH_APPKEY  : "c74352318c563ad0a878a840",//值来自开发者平台取得的AppKey
+                JPUSH_CHANNEL : "default_developer",
+
+                //xiaomi_config_start
+                XIAOMI_APPID  : "MI-小米的APPID",
+                XIAOMI_APPKEY : "MI-小米的APPKEY",
+                //xiaomi_config_end
+                //oppo_config_start
+                OPPO_APPKEY   : "OP-oppo的APPKEY",
+                OPPO_APPID    : "OP-oppo的APPID",
+                OPPO_APPSECRET: "OP-oppo的APPSECRET",
+                //oppo_config_end
+                //vivo_config_start
+                VIVO_APPKEY   : "vivo的APPKEY",
+                VIVO_APPID    : "vivo的APPID",
+                //vivo_config_end
+
+                //jshare_config_start
+                JSHARE_PKGNAME: applicationId,
+                TENCENT_APPID : "腾讯的appid",//腾讯开放平台注册应用得到的appId
+                FACEBOOK_APPID: "facebook的appid",//facebook注册应用得到的appId
+                //jshare_config_end
+        ]
+
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    repositories {
+        flatDir {
+            dirs 'libs'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation project(path: ':jiguang')
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    implementation(name: 'com.heytap.msp-push-2.1.0', ext: 'aar')
+
+    //implementation 'com.google.code.gson:gson:2.2.4'
+    implementation 'com.youth.banner:banner:1.4.10'//轮播图依赖
+    implementation 'com.github.bumptech.glide:glide:4.8.0'// 图片加载框架依赖
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'//recyclerview依赖
+
+    implementation 'com.android.support:design:30.0.4'
+//如果是androidx，使用以下依赖，后续项目全部使用androidx依赖
+    implementation 'com.google.android.material:material:1.2.0-alpha02'
+
+    implementation("com.squareup.okhttp3:okhttp:4.9.0") //OK的依赖
+
+    implementation 'com.scwang.smartrefresh:SmartRefreshLayout:1.0.4-7'
+    implementation 'com.scwang.smartrefresh:SmartRefreshHeader:1.0.4-7'//上下
+
+    implementation 'com.github.dfqin:grantor:2.5'  //动态权限框架
+
+    implementation 'com.squareup.retrofit2:retrofit:2.5.0'	//retrofit依赖
+    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'	//转换器，请求结果转换成Model
+
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.3.0'	//Rxjava依赖
+    implementation 'io.reactivex.rxjava2:rxjava:2.0.1'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.0.1'
+
+    implementation 'org.greenrobot:eventbus:3.1.1'	//      EventBus依赖
+
+    implementation 'cn.jzvd:jiaozivideoplayer:6.2.9'  //第三方视频依赖	改16
+
+
+    implementation 'com.android.support:cardview-v7:28.0.0'	//  文章卡片（cardView）效果的依赖
+
+    implementation 'com.jakewharton:butterknife:10.1.0'		//butterknife依赖
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.1.0'
+}
