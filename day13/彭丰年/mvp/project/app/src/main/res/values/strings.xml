@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">project</string>
+
+    <string name="connect_exception">网络连接异常</string>
+    <string name="ssl_exception">SSL证书异常</string>
+    <string name="jsonParse_exception">json解析异常</string>
+    <string name="complete">执行完成</string>
+    <string name="home_tab_title">首页</string>
+    <string name="collect_tab_title">收藏</string>
+
+
+    <string name="home_tab_home">首页</string>
+    <string name="home_tab_choose">选课</string>
+    <string name="home_tab_study">学习</string>
+    <string name="home_tab_me">我的</string>
+
+    <string name="guide_tv_skip">跳过</string>
+
+</resources>

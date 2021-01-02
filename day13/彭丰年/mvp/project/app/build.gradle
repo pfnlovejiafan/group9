@@ -1,0 +1,85 @@
+apply plugin: 'com.android.application'
+apply plugin: 'org.greenrobot.greendao' // apply plugin
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.2"
+
+    defaultConfig {
+        applicationId "com.example.project"
+        minSdkVersion 22
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    //初始化GreenDao配置
+    greendao{
+        schemaVersion 1 //数据库版本号
+        daoPackage 'com.example.project.mvp.model.dao'  //数据库全路径
+        targetGenDir 'src/main/java'  //存放位置
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.9.0'
+    implementation 'com.squareup.okhttp3:okhttp:3.14.9'
+    implementation 'com.prolificinteractive:material-calendarview:1.4.3'
+    implementation 'com.github.kinkoi:materialsearchview:1.4.0'
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.7'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
+
+    // 侧滑依赖，TabLayout
+    //noinspection GradleCompatible
+    implementation 'com.android.support:design:28.0.0'//轮播图（Banner）的依赖
+    implementation 'com.youth.banner:banner:1.4.10'
+    //读取网络图片的依赖
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+
+    //Butterknife依赖
+    implementation 'com.jakewharton:butterknife:10.2.3'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.3'
+
+    //动态权限
+    implementation 'com.github.dfqin:grantor:2.5'
+
+    //轮播图（Banner）的依赖
+    implementation 'com.youth.banner:banner:1.4.10'
+
+    //smartrefresh刷新，加载更多依赖
+    implementation 'com.scwang.smartrefresh:SmartRefreshLayout:1.1.0'
+
+    //GreenDao
+    implementation 'org.greenrobot:greendao:3.3.0' // add library
+
+    //EventBus依赖
+    implementation 'org.greenrobot:eventbus:3.1.1'
+
+    //Dagger2
+    implementation 'com.google.dagger:dagger:2.23.1'
+    annotationProcessor 'com.google.dagger:dagger-compiler:2.23.1'
+    implementation 'com.github.dfqin:grantor:2.5'
+    implementation 'me.tatarka:gradle-retrolambda:3.2.1'
+    provided 'javax.annotation:jsr250-api:1.0'
+}
