@@ -1,0 +1,37 @@
+<resources>
+    <!-- Base application theme. -->
+    <!-- 整个程序的样式 -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!--        <item name="colorPrimary">@color/white</item>-->
+        <!--        <item name="colorPrimaryDark">@color/white</item>-->
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- 设置屏幕方向为竖屏 不管怎么横竖屏切换 屏幕方向一直为竖向 -->
+        <item name="android:screenOrientation">portrait</item>
+
+    </style>
+
+    <!-- 欢迎页面的样式 -->
+    <style name="AppSplashTheme" parent="AppTheme">
+        <!-- 设置全屏 去掉状态栏 -->
+        <item name="android:windowFullscreen">true</item>
+        <!-- 窗体设置透明，提高性能 -->
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+
+    <!-- 底部导航选中时文字样式 -->
+    <style name="bottom_nav_sel">
+        <item name="android:textColor">@color/bottom_nav_selColor</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+    <!-- 底部导航未选中时文字样式 -->
+    <style name="bottom_nav_nor">
+        <item name="android:textColor">@color/bottom_nav_norColor</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+</resources>

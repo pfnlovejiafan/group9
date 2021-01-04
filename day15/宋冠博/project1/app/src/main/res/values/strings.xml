@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">project</string>
+
+    <string name="connect_exception">网络连接异常</string>
+    <string name="ssl_exception">SSL证书异常</string>
+    <string name="jsonParse_exception">json解析异常</string>
+    <string name="complete">执行完成</string>
+    <string name="home_tab_title">首页</string>
+    <string name="collect_tab_title">收藏</string>
+
+
+    <string name="home_tab_home">首页</string>
+    <string name="home_tab_choose">选课</string>
+    <string name="home_tab_study">学习</string>
+    <string name="home_tab_me">我的</string>
+
+    <string name="home_nav_home">首页</string>
+    <string name="home_nav_course">选课</string>
+    <string name="home_nav_learn">学习</string>
+    <string name="home_nav_mine">我的</string>
+
+    <string name="guide_tv_skip">跳过</string>
+
+    <string name="nav_course">选课</string>
+    <string name="sel_course_confirm">确定选择</string>
+
+    <string name="request_error">请求失败</string>
+    <string name="request_succeed">请求成功</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
