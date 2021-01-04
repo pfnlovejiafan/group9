@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".mvp.ui.activity.SelCourseActivity">
+
+    <RelativeLayout
+        android:id="@+id/sel_course_rl"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/nav_course"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/sel_course_view"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/sel_course_interval_line"
+        app:layout_constraintTop_toBottomOf="@id/sel_course_rl" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/sel_course_rv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/sel_course_btn"
+        app:layout_constraintTop_toBottomOf="@id/sel_course_view" />
+
+    <RelativeLayout
+        android:id="@+id/sel_course_btn"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <Button
+            android:id="@+id/sel_course_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:layout_marginHorizontal="30dp"
+            android:background="@drawable/sel_course_btn_bg"
+            android:text="@string/sel_course_confirm"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
